@@ -1,0 +1,56 @@
+.hero h1 {
+    margin: 0;
+    padding: 0;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    margin-top: 100px;
+}
+
+.hero main{
+    display: flex;
+    flex-grow: 1;
+    margin-bottom: 200px;
+}
+
+.hero aside {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero aside h1 {
+    text-align: center;
+}
+
+.hero-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    text-align: center;
+    width: 50%;
+}
+
+.hero-icons{
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero-icons .icon {
+    width: 70px;
+    height: auto;
+    fill: #FFFFFF;
+    opacity: 50%;
+}
+
+.cv {
+    padding-top: 10px;
+}
+
