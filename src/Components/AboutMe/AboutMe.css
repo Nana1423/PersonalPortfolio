@@ -1,0 +1,36 @@
+.aboutMe_section{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    position: relative;
+}
+
+.text-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    width: 70%;
+}
+
+.name{
+    color: #FEC02F;
+    font-weight: bold;
+}
+
+.skills-div{
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    flex-grow: 1;
+}
+
+.carrousel-div{
+    background-color: #FEC02F;
+    margin-bottom: 100px;
+    margin-right: -100px;
+    height: 200px;
+    width: 80%;
+}
+
+

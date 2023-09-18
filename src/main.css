@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 
+#root {
+    padding: 0;
+}
 
 body {
     margin: 0;
@@ -24,28 +27,22 @@ section {
 .slider-element {
     scroll-snap-align: center;
     margin-left: 230px;
-    padding: 100px 100px 0 100px;
+    padding: 0px 100px 0 100px;
     text-align: left;
 }
 
-h1, h2, h3, p{
+h1, h2, h3, p {
     text-align: left;
     color: #FEC02F;
     font-family: 'Montserrat', sans-serif;
 }
 
-h1{
+h1 {
     font-size: 60px;
-    
+
 }
 
 h3, p {
     color: white;
 }
 
-svg {
-    width: 70px;
-    height: auto;
-    fill: #FFFFFF;
-    opacity: 50%;
-}

@@ -1,22 +1,15 @@
-import NavBar from '../Components/Navbar/Navbar'
-import Hero from '../Components/Hero/Hero'
+import { Routes, Route } from "react-router-dom"
+import Portfolio from "./Portfolio"
+import CV from "./CV"
 
 function App() {
 
   return (
     <>
-     <NavBar/>
-     <main className='slider'>
-      <div className='slider-element'>
-        <Hero />
-      </div>
-      <div className='slider-element'>
-        <Hero />
-      </div>
-      <div className='slider-element'>
-        <Hero />
-      </div>
-     </main>
+      <Routes>
+        <Route path="/" element={<Portfolio/>} />
+        <Route path="/cv_en" element={<CV/>} />
+      </Routes>
     </>
   )
 }

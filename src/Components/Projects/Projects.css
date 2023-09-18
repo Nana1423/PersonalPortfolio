@@ -1,0 +1,32 @@
+.projects-section{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    position: relative;
+    gap: 20px;
+}
+
+.projects-container{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.project{
+    border: 1px solid white;
+    display: flex;
+    height: auto;
+    width: 100%;
+}
+
+.project ul {
+    display: flex;
+    list-style: none;
+    gap: 10px;
+}
+
+.div-buttons{
+    display: flex;
+    gap: 20px;
+    margin: 20px;
+}
