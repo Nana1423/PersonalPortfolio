@@ -15,7 +15,7 @@ export default function Portfolio() {
                     <AboutMe />
                 </div>
                 <div className='slider-element'>
-                    <Projects />
+                    <Projects titled/>
                 </div>
             </main>
         </>
