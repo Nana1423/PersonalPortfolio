@@ -3,6 +3,8 @@ import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import EmailIcon from '@mui/icons-material/Email';
 
+import HeroImage from "../../../public/images/Hero_Image.png"
+
 export default function Hero() {
     return (
         <section className="hero">
@@ -18,8 +20,8 @@ export default function Hero() {
                     <h3>System Engineer & <br /> Front-End Developer</h3>
                     <p>I am a Front-End developer with proficiency in React, JavaScript, and Tailwind CSS, currently pursuing my System Engineering degree. As I embark on my career journey, I bring with me a solid foundation in time management and strong logical problem-solving abilities.</p>
                 </div>
-                <aside className="hero-image">
-                    <h1>El dibujo de la Fer XDD</h1>
+                <aside className="image-container">
+                    <img className="hero-image" src={HeroImage} alt="Hero Image" />
                 </aside>
             </main>
         </section>

@@ -12,7 +12,6 @@ export default function AboutMe() {
                 </div>
 
                 <div className="skills-div">
-                    <div className="carrousel-div"></div>
                 </div>
             </section>
 
