@@ -1,8 +1,8 @@
 import "./Navbar.css"
 
 export default function NavBar () {
-    return(
-        <nav>  
+    return (
+        <nav>
             <ul>
                 <li><a className="nav-element" href="#home">Home</a></li>
                 <li><a className="nav-element" href="#aboutMe">About</a></li>
