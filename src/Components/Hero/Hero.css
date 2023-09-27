@@ -32,7 +32,7 @@
 
 .hero-icons{
     height: 10%;
-    padding-top: 50px;
+    padding-top: 30px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -63,7 +63,7 @@
 
 .hero-image{
     object-fit: contain;
-    min-width: 300px;
+    min-width: 250px;
     width: 100%;
     height: auto;
 }
