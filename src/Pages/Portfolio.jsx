@@ -8,7 +8,7 @@ import Footer from '../Components/Footer/Footer'
 // Images
 import IpDemo from "../../public/images/IpDemo.png"
 import TeslaDemo from "../../public/images/TeslaDemo.png"
-import FyloDemo from "../assets/Fylodemo.png"
+import FyloDemo from "../assets/FyloDemo.png"
 import RatingAppDemo from "../../public/images/RatingAppDemo.png"
 
 // Svg Files
