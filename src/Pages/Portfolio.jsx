@@ -134,7 +134,7 @@ export default function Portfolio() {
                         titled
                         project1={{
                             title: "Tesla Landing Page Clone",
-                            description: "This project is a clone of the Tesla website landing page with minor updates and adjustments. It has been developed using React and JavaScript to recreate all the basic functionalities and styles from the original site.",          
+                            description: "Tesla landing page with minor updates and adjustments. Developed using React and JavaScript to recreate functionalities and styles from the original site.",          
                             badges: badgesProjectTesla ,
                             imageSrc: TeslaDemo ,
                             repoLink: "https://github.com/Nana1423/LandingPage_Tesla",
