@@ -83,6 +83,7 @@ export default function Projects({ titled, project1, project2 }) {
                 {project2 && <hr />}
 
                 {project2 && <ProjectCard
+                    responsive
                     title= {project2.title}
                     description= {project2.description}          
                     badges= {project2.badges}

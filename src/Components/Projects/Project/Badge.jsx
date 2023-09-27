@@ -1,8 +1,8 @@
-export default function Badge({name, svg, backgroundColor}) {
+export default function Badge({name, svg}) {
     return (
-        <div className="badge" style={{ backgroundColor: backgroundColor }}>
+        <div className="badge" >
             {svg}
-            <p>{name}</p>
+            <p className="badge-text">{name}</p>
         </div>
     )
 }

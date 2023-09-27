@@ -1,0 +1,49 @@
+.slider-footer{
+    padding: 0 !important;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    flex-grow: 1;
+}
+
+footer div{
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer div h1 {
+    text-align: center;
+    font-size: 33px;
+    padding: 10px;
+    line-height: 60px;
+} 
+
+footer section {
+    height: 30%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: #FEC02F;
+}
+
+footer section p {
+    color: black;
+    text-align: center;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer section .hero-icons .icon {
+    fill: black !important;
+}
+

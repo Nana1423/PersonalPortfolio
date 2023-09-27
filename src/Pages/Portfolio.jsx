@@ -1,12 +1,14 @@
+// Components
 import NavBar from '../Components/Navbar/Navbar'
 import Hero from '../Components/Hero/Hero'
 import AboutMe from '../Components/AboutMe/AboutMe'
 import Projects from '../Components/Projects/Projects'
+import Footer from '../Components/Footer/Footer'
 
 // Images
 import IpDemo from "../../public/images/IpDemo.png"
 import TeslaDemo from "../../public/images/TeslaDemo.png"
-import FyloDemo from "../../public/images/Fylodemo.png"
+import FyloDemo from "../assets/Fylodemo.png"
 import RatingAppDemo from "../../public/images/RatingAppDemo.png"
 
 // Svg Files
@@ -121,13 +123,13 @@ export default function Portfolio() {
         <>
             <NavBar />
             <main className='slider'>
-                <div className='slider-element'>
+                <div id='home' className='slider-element'>
                     <Hero />
                 </div>
-                <div className='slider-element'>
+                <div id='aboutMe' className='slider-element'>
                     <AboutMe />
                 </div>
-                <div className='slider-element'>
+                <div id='projects' className='slider-element'>
                     <Projects
                         titled
                         project1={{
@@ -139,6 +141,18 @@ export default function Portfolio() {
                             demoLink: "https://landing-page-tesla.vercel.app/"
                         }}
                         project2={{
+                            title: "IP Address Tracker",
+                            description: "Shows your current location in a map by providing your IP, using the IP Geolocation API and Leadflet to generate a map.",          
+                            badges: badgesProjectIp ,
+                            imageSrc: IpDemo ,
+                            repoLink: "https://github.com/Nana1423/IP-Address-Tracker",
+                            demoLink: "https://ip-address-tracker-gamma-khaki.vercel.app/"
+                        }}
+                    />
+                </div>
+                <div className='slider-element slider-responsive'>
+                    <Projects
+                        project1={{
                             title: "IP Address Tracker",
                             description: "Shows your current location in a map by providing your IP, using the IP Geolocation API and Leadflet to generate a map.",          
                             badges: badgesProjectIp ,
@@ -167,6 +181,21 @@ export default function Portfolio() {
                             demoLink: "https://rating-app-teal.vercel.app/"
                         }}
                     />
+                </div>
+                <div className='slider-element slider-responsive'>
+                    <Projects
+                        project1={{
+                            title: "Rating App Feature",
+                            description: "This project aims to create an interactive rating app. The goal is to allow users to select and submit a number rating, display a Thank you card state after submitting a rating, and show hover and focus states for all interactive elements on the page",          
+                            badges: badgesProjectRating ,
+                            imageSrc: RatingAppDemo ,
+                            repoLink: "https://github.com/Nana1423/RatingApp",
+                            demoLink: "https://rating-app-teal.vercel.app/"
+                        }}
+                    />
+                </div>
+                <div id='contactMe' className='slider-element slider-footer'>
+                    <Footer/>
                 </div>
             </main>
         </>

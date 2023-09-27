@@ -11,12 +11,11 @@
     flex-direction: column;
     gap: 30px;
     border-radius: 15px;
-    padding: 10px;
 }
 
 .project{
     display: flex;
-    height: auto;
+    height: 50%;
     width: 100%;
 }
 
@@ -53,6 +52,11 @@
     font-size: 14px;
     padding: 5px 12px;
     border-radius: 20px;
+    background-color: #FEC02F;
+}
+
+.badge-text{
+    font-size: 14px;
 }
 
 .badge-icon{
@@ -68,8 +72,8 @@
 }
 
 .project-image{
-    width: 400px;
-    height: 200px;
+    width: 300px;
+    height: auto;
     object-fit: cover;
 }
 
@@ -77,4 +81,5 @@
     border: solid 2px !important;
     border-color: #FEC02F !important;
     color: white !important;
+    font-size: 13px !important;
 }

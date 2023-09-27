@@ -63,7 +63,7 @@
 
 .hero-image{
     object-fit: contain;
-    min-width: 330px;
+    min-width: 300px;
     width: 100%;
     height: auto;
 }
